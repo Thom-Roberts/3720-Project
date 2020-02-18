@@ -3,6 +3,9 @@ key_right = keyboard_check(vk_right);
 
 var move = key_right - key_left;
 
-hsp = move * walksp;
+if(global.playerCanMove) {
+	hsp = move * walksp;
 
-x = x + hsp;
+	// Prevent player from completely leaving the play space
+	x = clamp(x + hsp, 0, room_width);	
+}
