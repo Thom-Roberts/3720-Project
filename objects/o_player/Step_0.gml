@@ -3,6 +3,15 @@ key_right = keyboard_check(vk_right);
 
 var move = key_right - key_left;
 
+if(move != 0 && !walking) {
+	walking = true;
+	audio_play_sound(walkSound, 1, true);	
+}
+if(move == 0 && walking) {
+	walking = false;
+	audio_stop_sound(walkSound);	
+}
+
 if(global.playerCanMove) {
 	hsp = move * moveSpeed;
 

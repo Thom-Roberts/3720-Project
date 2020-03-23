@@ -55,6 +55,20 @@
             "value": "4",
             "varName": "moveSpeed",
             "varType": 0
+        },
+        {
+            "id": "39d2d1fb-4f2a-4ceb-afcb-7a39fbe91953",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "snd_footsteps",
+            "varName": "walkSound",
+            "varType": 5
         }
     ],
     "solid": false,
