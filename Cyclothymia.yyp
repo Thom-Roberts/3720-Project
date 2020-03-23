@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05c0f761-79ad-4f6b-a1a2-2625930caf86",
+            "Value": {
+                "id": "64404541-e0f1-4552-9161-7a274e2dc4b8",
+                "resourcePath": "objects\\o_bellSoundTrigger\\o_bellSoundTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0babac39-7f56-4f97-bc94-1e2ee65f665e",
             "Value": {
                 "id": "f4d592c0-03e0-4579-829f-a1e676b18337",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "802fb114-7559-4631-a29c-ad54820b9495",
+            "Value": {
+                "id": "85138e80-7a04-4b42-b941-7146b6d0fe49",
+                "resourcePath": "sprites\\sprite19\\sprite19.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "895a9b20-2fa7-4bba-a331-2a67980f7b6c",
             "Value": {
                 "id": "12acf13f-b87c-4eee-9d50-1ee33613ff77",
@@ -378,7 +394,7 @@
             "Key": "a96e1a31-8f5e-464d-8831-12555ff89932",
             "Value": {
                 "id": "37c94fc5-3fde-411a-8c12-646194034ea1",
-                "resourcePath": "sounds\\snd_rain\\snd_rain.yy",
+                "resourcePath": "sounds\\snd_rain_outside\\snd_rain_outside.yy",
                 "resourceType": "GMSound"
             }
         },
