@@ -5,10 +5,12 @@ var move = key_right - key_left;
 
 if(move != 0 && !walking) {
 	walking = true;
+	image_speed = 1;
 	audio_play_sound(walkSound, 1, true);	
 }
 if(move == 0 && walking) {
 	walking = false;
+	image_speed = 0;
 	audio_stop_sound(walkSound);	
 }
 
