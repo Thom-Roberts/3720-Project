@@ -1,8 +1,7 @@
 // scr_text("Text", speed, x, y);
 
 txt = instance_create_depth(argument2, argument3, 1, o_text);
-show_debug_message("Created instance with id of: " + string(txt));
-global.activeTextBox = txt;
+
 with(txt) {
 	padding = 16;
 	max_length = view_wport[0];

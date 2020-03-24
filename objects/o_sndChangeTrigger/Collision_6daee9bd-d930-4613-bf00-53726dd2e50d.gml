@@ -4,7 +4,6 @@
 if(!collided) {
 	collided = true;
 	if(o_player.walkSound == snd_footsteps) {
-		show_debug_message("Changing footstep to rain");
 		audio_stop_sound(snd_footsteps);
 		audio_stop_sound(snd_rain_inside);
 		audio_play_sound(snd_footsteps_rain, 1, true);
@@ -12,7 +11,6 @@ if(!collided) {
 		o_player.walkSound = snd_footsteps_rain;
 	}
 	else if(o_player.walkSound == snd_footsteps_rain) {
-		show_debug_message("Changing footstep to normal");
 		audio_stop_sound(snd_footsteps_rain);
 		audio_stop_sound(snd_rain_outside);
 		audio_play_sound(snd_footsteps, 1, true);
