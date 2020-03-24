@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_roomWall",
     "eventList": [
-        
+        {
+            "id": "e4ec2634-3952-4295-b39c-9c592edf8c63",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3ec69461-07ad-4eed-a5a0-3f9c15f7f805"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

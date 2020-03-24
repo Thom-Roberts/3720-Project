@@ -1,18 +1,18 @@
 {
-    "id": "bfae487a-c526-4708-b135-b7e0481817a4",
+    "id": "30e686c1-955d-4598-bfe9-74a9e7b911ea",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_door",
+    "name": "o_rain",
     "eventList": [
         {
-            "id": "6cc22b50-f6c0-485f-9209-d6322398444d",
+            "id": "4726744b-1887-4568-8a63-d7f87f7bf34d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "bfae487a-c526-4708-b135-b7e0481817a4"
+            "m_owner": "30e686c1-955d-4598-bfe9-74a9e7b911ea"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8e1154f6-1d8e-4841-b61e-d0e4ccb9ee4c",
+    "spriteId": "9c88a86f-ad31-4314-8d36-d2c27df3bb89",
     "visible": true
 }

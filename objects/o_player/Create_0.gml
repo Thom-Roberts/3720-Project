@@ -1,4 +1,4 @@
 hsp = 0;
 walking = false;
-depth = -1;
+depth = -5;
 image_speed = 0;

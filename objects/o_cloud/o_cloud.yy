@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_cloud",
     "eventList": [
-        
+        {
+            "id": "91d82a20-11c4-488c-9de1-ead7df8f8191",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "8e011279-b69f-48db-b199-67502c666510"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
