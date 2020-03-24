@@ -28,3 +28,7 @@ if(global.playerCanMove) {
 	// Prevent player from completely leaving the play space
 	x = clamp(x + hsp, 0, room_width);	
 }
+else {
+	audio_stop_sound(walkSound);
+	image_speed = 0;
+}

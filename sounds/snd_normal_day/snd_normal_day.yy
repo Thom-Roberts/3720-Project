@@ -1,8 +1,8 @@
 {
-    "id": "a96e1a31-8f5e-464d-8831-12555ff89932",
+    "id": "5f2be92f-2422-4432-8e05-98ba79faed2a",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_rain_outside",
+    "name": "snd_normal_day",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.3
+    "volume": 0.1
 }
